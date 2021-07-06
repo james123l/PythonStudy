@@ -20,3 +20,11 @@ while True:
     schedule.run_pending()
     time.sleep(1)
 
+# 导入模块的 解释器搜索顺序
+# 先在当前文件内搜索该模块
+# 再在PYTHONPATH内找该模块
+# 最后在python的默认路径中寻找
+
+# 注意点：
+# 如果导入模块和功能名字重复 则最后定义的那个模块或者功能是有效的
+

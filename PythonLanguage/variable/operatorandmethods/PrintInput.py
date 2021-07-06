@@ -32,4 +32,9 @@ a = input("input a number")
 b = input('input another number')
 print(int(a)*int(b))
 
-
+# 字符串输出多个变量
+name = 'james'
+age = 15
+print('I\'m %s, %d years old' % (name, age))     # 实际上 大多数的数据类型都可以用%s占位
+print(f'I\'m {name}, {age} years old')
+print('name:{0},age:{1}'.format(name, age))

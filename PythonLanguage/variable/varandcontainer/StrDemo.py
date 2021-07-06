@@ -44,6 +44,9 @@ str2 = str1.replace('python', 'java', 2)    # 设置替换个数为2个：hello,
 list1 = ['hello', 'java', 'python']
 str1 = ''.join(list1)                       # 合并函数 返回字符串 即用‘’ 链接元组或者list的内容 hellojavapython
 str1 = '|'.join('python')                   # p|y|t|h|o|n
+str1.lstrip()                               # lstrip删除左侧空格 rstrip右侧 strip是删除双侧
+str1.startswith('i')                        # 判断是否以i开头 endswith以结尾
+
 
 # 原始值和对应值
 print(ord('a'))     # 找到a字符对应的编码值

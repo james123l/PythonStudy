@@ -41,7 +41,7 @@ list02[0:] = [10, 20, 30, 40, 50, 60, 70, 80, 90]  # 切片修改
 
 # 列表生成
 list02.clear()
-list02 = [i for i in range(0, 100, 10)]  # i 是表达式 如果需要偶数 也可以写 2*i for i in range(0, 100)
+list02 = [i for i in range(0, 100, 10)]  # i 是表达式 如果需要偶数 也可以写 2*i for i in range(0, 100) / i for i in range(0, 100) if i%2 == 0
 
 # list 排序
 list02.sort()   # 默认升序      list02.sort(reverse = True) 降序排序 false即为升序

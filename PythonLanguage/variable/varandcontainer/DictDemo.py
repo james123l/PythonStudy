@@ -9,7 +9,7 @@ b = ['a', 'b', 'c', 'd']
 ab = zip(a, b)      # [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')]
 kvs = dict(ab)      # {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
 # 映射方式二 : 字典生成式
-dictAB = {aitem:bitem for aitem, bitem in a, b}
+dict1 = {a[i]: b[i] for i in range(len(a))}
 # 可迭代对象
 kvs = dict([('one', 1), ('two', 2), ('three', 3)])   # {'three': 3, 'two': 2, 'one': 1}
 

@@ -10,7 +10,7 @@ class BYUStudent(Person):       # 继承Person
     def __str__(self):
         return 'name:{0},age:{1}'.format(self.name, self._BYUStudent__age)
 
-    def __init__(self, name, age):
+    def __init__(self, name, age):      # 这个函数当对象创建完成被调用 进行对象变量赋值
         self.name = name       # 实例属性 不属于类对象 属于实例
         self.__age = age       # __表示不希望类的外部访问 相似于私有 但是外部可以通过_BYUStudent__age访问
 
