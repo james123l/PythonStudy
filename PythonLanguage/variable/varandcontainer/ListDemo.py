@@ -49,7 +49,7 @@ newList = sorted(list02)       # sorted 内置方法进行升序排序       sor
 
 
 # list 删除
-list02.remove(90)   # 删除list02的第一个出现的50元素
+list02.remove(90)   # 删除list02的第一个出现的90元素
 list02.pop(7)       # 删除list中下标为8的元素 如果不写参数 则默认尾删
 newList = list02[1:3]  # 切片删除法 只保留[1，3）的部分
 list02[1:3] = []       # 切片法删除[1，3）的部分

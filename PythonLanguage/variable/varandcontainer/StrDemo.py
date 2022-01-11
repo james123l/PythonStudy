@@ -35,7 +35,7 @@ str1.isspace()          # 判断是否是空格 回车 换行 tab等组成
 str1.isalpha()          # 判断是否全部是字母组成
 str1.isalnum()          # 判断是否全部由字母和数字组成
 str1.isdecimal()        # 判断是否是十进制数字组成
-str1.isnumeric()        # 判断是否是数组组成
+str1.isnumeric()        # 判断是否是数字组成
 
 # 替换与合并
 str1 = 'hello,python,python,python'

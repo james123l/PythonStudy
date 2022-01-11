@@ -4,7 +4,7 @@ __all__ = ['add']       # all 列表决定了其他模块from MyAdd import * 时
 # import ModuleDemo.MyAdd
 # ModuleDemo.MyAdd.add()
 # 导入包的方式2
-# 在package的init.py种 需要添加all列表来控制包的导入行为,在这个package的init内会做实例
+# 在package的init.py中 需要添加all列表来控制包的导入行为,在这个package的init内会做实例
 # from ModuleDemo import MyAdd
 
 

@@ -23,7 +23,7 @@ def printertuple(*args):       # 个数可变的位置形参 传入的args 默�
     print(args, type(args))
 
 
-def printerdict(**kwargs):       # 个数可变的关键字形参 传入的args默认为字典
+def printerdict(**kwargs):       # 个数可变的关键字形参(键值对) 传入的args默认为字典
     print(kwargs, type(kwargs))
 
 
