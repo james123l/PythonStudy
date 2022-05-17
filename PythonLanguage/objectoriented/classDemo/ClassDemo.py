@@ -8,9 +8,12 @@ class BYUStudent(Person):       # 继承Person
     state = 'Idaho'     # 类属性 是类对象的成员 所有类实例都共享
 
     def __str__(self):
+        print("state attribute test ")
+        print(self.state) # 类属性如果是值类型 则可以直接调用 如果是引用类型 则不可以通过对象self.state访问因为两者不是一个对象
+        print("str method test ")
         return 'name:{0},age:{1}'.format(self.name, self._BYUStudent__age)
 
-    def __init__(self, name, age):      # 这个函数当对象创建完成被调用 进行对象变量赋值
+    def __init__(self, name, age):      # 这个函数当对象创建完成被调用 进行对象变量赋值 __new__是构造函数
         self.name = name       # 实例属性 不属于类对象 属于实例
         self.__age = age       # __表示不希望类的外部访问 相似于私有 但是外部可以通过_BYUStudent__age访问
 
